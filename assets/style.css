@@ -1,0 +1,16 @@
+#quiz {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+#choices {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+}
