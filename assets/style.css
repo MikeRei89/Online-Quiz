@@ -13,10 +13,10 @@
   }
   
   .reset-button {
-    font-size: 16px;
-    height: 30px;
+    font-size: 20px;
+    height: 24px;
     line-height: 8px;
-    margin-top: 8px;
+    margin-top: 10px;
   }
   
   .scoreContainer {
@@ -93,7 +93,9 @@
   }
 
   #choices {
+
   }
+
   .startScreen {
     line-height: 360px;
   }
@@ -135,12 +137,12 @@
   @media screen and (max-width: 504px) {
     .large-font {
       font-size: 2em;
-    }
+    }}
   
     .reset-button {
-      font-size: 12px;
-      width: 20ox;
-      
+      font-size: 18px;
+      width: 28ox;
+      height: 50px;
     }
   
     .timer {

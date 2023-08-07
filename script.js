@@ -11,28 +11,28 @@ let timerCount;
 
 const question = [
     {
-        question: "Who are you?"
-        choices: ["a. M", "b. 2", "c.8", "d.3"]
+        question: "Who are you?",
+        choices: ["a. M", "b. 2", "c.8", "d.3"],
         answer: "a"
     },
     {
-        question: "Who are you?"
-        choices: ["a. M", "b. 2", "c.8", "d.3"]
+        question: "Who are you?",
+        choices: ["a. M", "b. 2", "c.8", "d.3"],
         answer: "a"
     },
     {
-        question: "Who are you?"
-        choices: ["a. M", "b. 2", "c.8", "d.3"]
+        question: "Who are you?",
+        choices: ["a. M", "b. 2", "c.8", "d.3"],
         answer: "a"
     },
     {
-        question: "Who are you?"
-        choices: ["a. M", "b. 2", "c.8", "d.3"]
+        question: "Who are you?",
+        choices: ["a. M", "b. 2", "c.8", "d.3"],
         answer: "a"
     },
     {
-        question: "Who are you?"
-        choices: ["a. M", "b. 2", "c.8", "d.3"]
+        question: "Who are you?",
+        choices: ["a. M", "b. 2", "c.8", "d.3"],
         answer: "a"
     },
 ];
