@@ -2,22 +2,50 @@ const startScreen = document.querySelector(".startScreen");
 const scoreContainer = document.querySelector(".scoreContainer");
 const timerElement = document.querySelector(".timer-count");
 const startButton = document.querySelector(".start-button");
-const choicesList = document.querySelector("#choices")
+const choicesList = document.querySelector("#choices");
+const questionElement = document.querySelector("#question");
 
 let Score = 0;
-// let isWin = false;
 let timer;
 let timerCount;
 
-function init() {
-  Score();
-}
+const question = [
+    {
+        question: "Who are you?"
+        choices: ["a. M", "b. 2", "c.8", "d.3"]
+        answer: "a"
+    },
+    {
+        question: "Who are you?"
+        choices: ["a. M", "b. 2", "c.8", "d.3"]
+        answer: "a"
+    },
+    {
+        question: "Who are you?"
+        choices: ["a. M", "b. 2", "c.8", "d.3"]
+        answer: "a"
+    },
+    {
+        question: "Who are you?"
+        choices: ["a. M", "b. 2", "c.8", "d.3"]
+        answer: "a"
+    },
+    {
+        question: "Who are you?"
+        choices: ["a. M", "b. 2", "c.8", "d.3"]
+        answer: "a"
+    },
+];
 
 function startGame() {
-  isWin = false;
-  timerCount = 30;
-  startButton.disabled = true;
-  startTimer()
+    isWin = false;
+    timerCount = 30;
+    startButton.disabled = true;
+    startTimer();
+}
+
+function init() {
+  Score();
 }
 
 // The winGame function is called when the win condition is met

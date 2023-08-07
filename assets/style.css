@@ -16,7 +16,7 @@
     font-size: 16px;
     height: 30px;
     line-height: 8px;
-    margin-top: 20px;
+    margin-top: 8px;
   }
   
   .scoreContainer {
@@ -105,7 +105,7 @@
   
   .timer {
     height: 240px;
-    padding: 10px;
+    padding: 20px;
     background: #13293d;
     color: #fff;
     text-align: center;
@@ -120,7 +120,7 @@
       flex-direction: column;
     }
   
-    .word-guess,
+    .questionBox,
     .results {
       width: 90vw;
     }
