@@ -19,7 +19,7 @@
     margin-top: 20px;
   }
   
-  .win-loss-container {
+  .scoreContainer {
     display: flex;
     justify-content: space-between;
     margin-top: 16px;
@@ -64,7 +64,7 @@
     border-radius: 8px;
   }
   
-  .word-guess {
+  .questionBox {
     width: 55vw;
     height: 400px;
   }
@@ -84,11 +84,21 @@
     padding: 20px;
   }
   
-  .word-blanks {
+  #question {
+    line-height: 250px;
+    font-size: 3em;
+    width: 55vw;
+    height: 400px;
+    text-align:center;
+  }
+
+  #choices {
+  }
+  .startScreen {
     line-height: 360px;
   }
   
-  .large-font {
+  .mainFont {
     font-size: 3.5em;
     text-align:center;
   }
