@@ -1,0 +1,1 @@
+var startscreen = document.querySelector 
