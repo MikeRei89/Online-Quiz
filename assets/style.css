@@ -67,6 +67,7 @@
   .questionBox {
     width: 55vw;
     height: 400px;
+    text-align:center;
   }
   
   .results {
@@ -74,6 +75,10 @@
     height: 400px;
   }
   
+  .btn {
+    margin-right:20px;
+  }
+
   .card {
     background: radial-gradient(circle, rgba(240,230,140,1) 0%, rgba(187,124,33,0.604079131652661) 100%);
     border: 1px solid #eceff1;
@@ -85,11 +90,8 @@
   }
   
   #question {
-    line-height: 250px;
     font-size: 3em;
     width: 55vw;
-    height: 400px;
-    text-align:center;
   }
 
   #choices {

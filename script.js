@@ -4,6 +4,7 @@ const timerElement = document.querySelector(".timer-count");
 const startButton = document.querySelector(".start-button");
 const choicesList = document.querySelector("#choices");
 const questionElement = document.querySelector("#question");
+const scoreElement = document.querySelector(".score");
 
 let Score = 0;
 let timer;
@@ -45,7 +46,7 @@ function startGame() {
 }
 
 function init() {
-  Score();
+  scoreResult();
 }
 
 // The winGame function is called when the win condition is met
@@ -96,9 +97,8 @@ function renderBlanks() {
 }
 
 // Updates win count on screen and sets win count to client storage
-function Score() {
-  score.textContent = Score;
-  localStorage.setItem("Score", score);
+function scoreResult() {
+  scoreElement.textContent = Score;
 }
 
 // These functions are used by init
